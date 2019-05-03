@@ -148,9 +148,10 @@ h6 {
     border: none
 }
 
-.drop-menu{
-    margin-top: 0.7em 
+.drop-menu {
+    margin-top: 0.7em
 }
+
 .navbar-toggler {
     border-color: transparent !important;
 
@@ -186,29 +187,35 @@ button:focus {
 .dropdown-menu {
     max-width: 200px;
 }
+
 .balance-info h6 {
     margin-bottom: 0.2em
 }
-.balance-info{
+
+.balance-info {
     margin-top: 0.3em
 }
-.nav-name{
+
+.nav-name {
     font-size: 0.9em;
     font-weight: 600
 }
-.btn-logout{
+
+.btn-logout {
     color: white;
     padding: 0
 }
-.btn-logout:hover{
 
-color: rgb(166, 247, 37) !important;
-transition: 250ms ease;
+.btn-logout:hover {
+
+    color: rgb(166, 247, 37) !important;
+    transition: 250ms ease;
 }
 
-.profile-info{
+.profile-info {
     text-align: right
 }
+
 /* MAIN */
 .top-indent {
     margin-top: 82px
@@ -323,33 +330,40 @@ h1 {
     .profile-info h6 {
         text-align: right
     }
-    .profile-info a{
+
+    .profile-info a {
         font-size: 0.8em
     }
-    .profile-sm{
+
+    .profile-sm {
         display: inline !important;
     }
-    .profile-info{
+
+    .profile-info {
         padding-top: 0.5em;
         text-align: left !important;
         position: relative;
-        
+
     }
-    .player-icon{
-       position: absolute;
+
+    .player-icon {
+        position: absolute;
     }
-    .nav-name     {
+
+    .nav-name {
         margin-left: 5em
     }
-    .btn-logout{
+
+    .btn-logout {
         margin-left: 4em
     }
 }
 
 @media screen (min-width: 569px) {}
-    .profile-sm{
-        justify-content: space-between;
-    } 
+
+.profile-sm {
+    justify-content: space-between;
+}
 
 
 @media screen and (max-width: 767px) {
@@ -494,16 +508,21 @@ h1 {
     .social-icon {
         padding: 0 2em 0 !important;
     }
-    .nav-name{
+
+    .nav-name {
         font-size: 0.7em
     }
-    .nav-text h6{
+
+    .nav-text h6 {
         font-size: 0.6;
-margin-left:1.5em
+        margin-left: 1.5em
     }
-    .social-icon{
+
+    .social-icon {
         padding: 0 1em !important
-}}
+    }
+
+}
 
 @media (min-height: 1020px) {
 
@@ -519,11 +538,11 @@ margin-left:1.5em
     .block-btn {
         margin: 75px 0 !important;
     }
-   
+
 }
 
-@media and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .footer {
-        height: 80px;
+        height: 80px !important;
     }
 }
